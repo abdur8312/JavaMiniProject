@@ -79,7 +79,7 @@ public class ShowOptions {
 	}
 	
 	public int check(String book_name, int quantity) {
-		for(int i = 0; i < li.size(); i++) {
+		for(int i = 0; i < li.size(); i++) { // showing dead code
 			String b_N = li.get(i).getbName();
 			int q_b = li.get(i).getbQuantity();
 			if(book_name.equals(b_N) && quantity <= q_b) {
