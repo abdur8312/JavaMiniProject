@@ -8,7 +8,7 @@ public class ListProducts {
 	private Integer bQuantity;
 	
 	public ListProducts(String bName, Integer bId, Integer bRate, Integer bQuantity) {
-		super();
+		
 		this.bName = bName;
 		this.bId = bId;
 		this.bRate = bRate;
