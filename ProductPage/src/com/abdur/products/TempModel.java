@@ -1,5 +1,8 @@
 package com.abdur.products;
 
+//DO NOT CONSIDER THIS CLASS. ONLY THE Items.java, ProductsModel.java and ShowOptions.java
+//are the main classes
+
 public class TempModel {
 	
 	private Integer Id;

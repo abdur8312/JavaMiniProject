@@ -8,7 +8,7 @@ public class ShowOptions {
 	Integer book_ID;
 	int quantity, ch2, choice1;
 	Scanner sc = new Scanner(System.in);
-	Map<Integer, ListProducts> mp = new HashMap<Integer, ListProducts>();
+	Map<Integer, ProductsModel> mp = new HashMap<Integer, ProductsModel>();
 	public void add() {
 		System.out.print("Enter how many products you want to add : ");
 		int n = sc.nextInt();
@@ -21,7 +21,7 @@ public class ShowOptions {
 			Integer bRate = sc.nextInt();
 			System.out.print("Enter Quantity : ");
 			Integer bQuantity = sc.nextInt();
-			ListProducts obj = new ListProducts(bName, bId, bRate, bQuantity);
+			ProductsModel obj = new ProductsModel(bName, bId, bRate, bQuantity);
 			mp.put(bId, obj);
 		}
 	}

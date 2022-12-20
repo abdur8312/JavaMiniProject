@@ -1,13 +1,13 @@
 package com.abdur.products;
 
 
-public class ListProducts {
+public class ProductsModel {
 	private String bName;
 	private Integer bId;
 	private Integer bRate;
 	private Integer bQuantity;
 	
-	public ListProducts(String bName, Integer bId, Integer bRate, Integer bQuantity) {
+	public ProductsModel(String bName, Integer bId, Integer bRate, Integer bQuantity) {
 		
 		this.bName = bName;
 		this.bId = bId;
@@ -42,19 +42,5 @@ public class ListProducts {
 	public void setbQuantity(Integer bQuantity) {
 		this.bQuantity = bQuantity;
 	}
-	
-	
-	
-	
-	
-	
-//	public void show() {
-//		System.out.println("SI.No  Bookname Rate Quantity");
-//		System.out.println("  1\t" + bk1 + "\t" + rt_bk1 + "\t" + qty_bk1);
-//		System.out.println("  2\t" + bk2 + "\t" + rt_bk2 + "\t" + qty_bk2);
-//	}
-	
-	
-	
 	
 }

@@ -6,6 +6,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
+//DO NOT CONSIDER THIS CLASS. ONLY THE Items.java, ProductsModel.java and ShowOptions.java
+//are the main classes
+
 public class TempModelMain {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
